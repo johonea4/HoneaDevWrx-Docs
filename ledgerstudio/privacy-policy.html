@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LedgerStudio Privacy Policy — HoneaDevWrx</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html">
+        <img src="../assets/images/ledgerstudio-icon.png" alt="LedgerStudio Logo" />
+        <span>HoneaDevWrx Docs</span>
+      </a>
+      <nav class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="index.html">LedgerStudio Guide</a>
+        <a class="active" href="privacy-policy.html">Privacy Policy</a>
+        <a href="support.html">Support</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section-card">
+      <span class="badge">HoneaDevWrx &bull; 100% Offline &bull; Effective November 27, 2026</span>
+      <h1>Privacy Policy for LedgerStudio</h1>
+      <p>
+        This Privacy Policy explains how <strong>HoneaDevWrx</strong> handles information in the <strong>LedgerStudio</strong>
+        application on <strong>Google Play (Android)</strong> and <strong>Microsoft Store (Windows)</strong>.
+      </p>
+
+      <table class="meta-table">
+        <tr><th>Application</th><td>LedgerStudio (Offline Business, Invoicing &amp; Tax Studio)</td></tr>
+        <tr><th>Developer / Publisher</th><td>HoneaDevWrx (Microsoft Store Publisher: JMHonea)</td></tr>
+        <tr><th>Google Play Application ID</th><td><code>com.honeadevwrx.ledgerstudio</code></td></tr>
+        <tr><th>Microsoft Store Identity</th><td><code>34743JMHonea.LedgerStudio</code> (Store ID: <code>9N5J73G62VMV</code>)</td></tr>
+        <tr><th>Location</th><td>Thompson's Station, TN, United States</td></tr>
+        <tr><th>Privacy Contact</th><td><a href="mailto:honeadevwrx@outlook.com">honeadevwrx@outlook.com</a></td></tr>
+      </table>
+
+      <h2>1. Zero Personal or Financial Data Collection</h2>
+      <p>
+        LedgerStudio is engineered to run <strong>100% offline with no backend servers</strong>. HoneaDevWrx does <strong>not</strong> collect, access, transmit, rent, or sell any personal, business, or usage data.
+      </p>
+      <ul>
+        <li><strong>Stored Strictly On Your Device:</strong> Your business profile, tax rates, client contact details, quotes, invoices, payment logs, client signatures, billable timer entries, deductible expenses, and mileage records reside solely inside your local device SQLite database (<code>ledgerstudio_v1.db3</code>).</li>
+        <li><strong>No Tracking SDKs:</strong> LedgerStudio contains zero third-party analytics SDKs, zero advertising networks, zero social trackers, and zero external crash telemetry uploaders.</li>
+      </ul>
+
+      <h2>2. AES-256-GCM Encrypted Vault Backups (<code>.lsvault</code>)</h2>
+      <p>
+        If you use the optional Pro backup feature to export a <code>.lsvault</code> archive, LedgerStudio compresses and encrypts your local database entirely on your device using a passphrase you supply via <strong>PBKDF2-SHA256 (100,000 iterations)</strong> key derivation and <strong>AES-256-GCM</strong> authenticated encryption before opening your operating system's file picker or share sheet. HoneaDevWrx never receives your passphrase or backup files.
+      </p>
+
+      <h2>3. Device Permissions &amp; Store Billing</h2>
+      <ul>
+        <li><strong>File Export &amp; Share Sheet:</strong> Requested only when you explicitly tap Export PDF, Export CSV, Save <code>.lsvault</code>, or Restore <code>.lsvault</code>.</li>
+        <li><strong>Google Play Billing / Microsoft Store IAP:</strong> LedgerStudio is free to install with an optional one-time in-app unlock (<code>ledgerstudio_pro_lifetime</code>, $24.99 USD). Purchase checkout, tax handling, and receipt verification are processed directly by <strong>Google LLC</strong> (Google Play) or <strong>Microsoft Corporation</strong> (Microsoft Store) under their respective privacy policies. LedgerStudio writes an HMAC-SHA256 integrity-verified entitlement flag to local device preferences so Pro features continue functioning offline.</li>
+      </ul>
+
+      <h2>4. Data Retention &amp; Deletion</h2>
+      <p>
+        Because HoneaDevWrx stores no copy of your data, you have complete control over retention and deletion at any time:
+      </p>
+      <ul>
+        <li>Open <strong>Vault &amp; Tax &rarr; Erase All Local Data</strong> inside LedgerStudio to wipe all business records immediately.</li>
+        <li>Uninstalling LedgerStudio from Android or Windows removes the application's private database and preferences from your device.</li>
+      </ul>
+
+      <h2>5. Children's Privacy</h2>
+      <p>
+        LedgerStudio is a business bookkeeping and invoicing utility intended for adults (18+) and commercial professionals, and is not directed at children under 13.
+      </p>
+
+      <h2>6. Policy Updates &amp; Contact</h2>
+      <p>
+        Any updates to this Privacy Policy will be posted at this URL with an updated Effective Date. For privacy or support questions, email <a href="mailto:honeadevwrx@outlook.com">honeadevwrx@outlook.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>&copy; 2026 HoneaDevWrx &middot; Thompson's Station, TN</span>
+      <span><a href="index.html">User Guide</a> &middot; <a href="support.html">Support</a> &middot; <a href="terms.html">Terms</a> &middot; <a href="mailto:honeadevwrx@outlook.com">honeadevwrx@outlook.com</a></span>
+    </div>
+  </footer>
+</body>
+</html>
